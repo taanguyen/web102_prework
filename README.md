@@ -21,8 +21,12 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features:
+The compressed video walkthrough rushes the ending of the demo. 
+To see the uncompressed video walkthrough, see [demo.gif](./demo.gif). 
+
+Here's a compressed walkthrough of implemented features:
 <img width="1935" height="1257" alt="demo_compressed" src="https://github.com/user-attachments/assets/d045563d-ed22-48d3-8c2f-23687f8f1ceb" />
+
 
 ## License
 
