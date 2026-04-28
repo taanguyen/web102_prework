@@ -185,3 +185,15 @@ const secondGameElement = document.createElement('p');
 secondGameElement.innerHTML = secondGame.name;
 firstGameContainer.appendChild(firstGameElement);
 secondGameContainer.appendChild(secondGameElement);
+
+window.searchForGames = searchForGames;
+const searchElement = document.getElementById("searchGamesInput");
+const noSearchResultsElement = document.createElement("p");
+noSearchResultsElement.innerHTML = "Sorry, no games found 😔";
+noSearchResultsElement.classList.add("no-games-found");
+function searchForGames() {
+    const searchText = searchElement.value.toLowerCase();
+    const searchedGames = GAMES_JSON.filter(x => x.name.toLowerCase().startsWith(searchText));
+    deleteChildElements(gamesContainer);
+    searchedGames.length > 0 ? addGamesToPage(searchedGames) : gamesContainer.appendChild(noSearchResultsElement);
+}
