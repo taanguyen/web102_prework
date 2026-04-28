@@ -22,6 +22,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
+<img width="480" height="270" alt="demo" src="https://github.com/user-attachments/assets/55a1e971-f19f-488e-a1dc-719e598a2244" />
 
 ## License
 
